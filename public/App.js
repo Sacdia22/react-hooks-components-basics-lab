@@ -1,19 +1,19 @@
-function Navbar() {
-  return <nav>Navbar</nav>;
-}
 
-function Home() {
-  return (
-    <div id="home">
-      <h1>Home</h1>
-    </div>
-  );
-}
-
+// src/App.js
 function App() {
   return (
-    <div>
-      {/* Components will go here */}
+    <div className="App">
+      <nav>
+        {/* Your navigation content */}
+      </nav>
+      
+      <section id="home">
+        {/* Your home section content */}
+      </section>
+      
+      <section id="about">
+        {/* Your about section content */}
+      </section>
     </div>
   );
 }
